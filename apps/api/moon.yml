@@ -1,0 +1,52 @@
+tasks:
+  install:
+    command: 'pnpm install'
+    inputs:
+      - 'package.json'
+      - 'pnpm-lock.yaml'
+    outputs:
+      - 'node_modules'
+
+  dev:
+    command: 'nest start --watch'
+    inputs:
+      - 'src/**/*'
+      - 'test/**/*'
+      - 'nest-cli.json'
+      - 'tsconfig.json'
+      - 'tsconfig.build.json'
+    outputs:
+      - 'dist'
+
+  build:
+    command: 'nest build'
+    inputs:
+      - 'src/**/*'
+      - 'nest-cli.json'
+      - 'tsconfig.json'
+      - 'tsconfig.build.json'
+    outputs:
+      - 'dist'
+
+  test:
+    command: 'jest'
+    inputs:
+      - 'src/**/*'
+      - 'test/**/*'
+      - 'jest.config.js'
+    outputs:
+      - 'coverage'
+
+  lint:
+    command: 'eslint "{src,apps,libs,test}/**/*.ts"'
+    inputs:
+      - 'src/**/*.ts'
+      - 'test/**/*.ts'
+      - '.eslintrc.js'
+
+  format:
+    command: 'prettier --write "src/**/*.ts" "test/**/*.ts"'
+    inputs:
+      - 'src/**/*.ts'
+      - 'test/**/*.ts'
+      - '.prettierrc'
