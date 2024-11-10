@@ -1,0 +1,26 @@
+version: "3.8"
+services:
+    
+  mongodb:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_ROOT_PASSWORD=password
+      - MONGO_INITDB_DATABASE=tesa
+    volumes:
+      - mongodb_data:/data/db  
+
+  broker_mqtt:
+    image: eclipse-mosquitto
+    ports:
+      - "1883:1883"
+    volumes:
+      - mosquitto_data:/mosquitto/data
+      - mosquitto_log:/mosquitto/log
+
+volumes:
+  mongodb_data:    
+  mosquitto_data: 
+  mosquitto_log:   

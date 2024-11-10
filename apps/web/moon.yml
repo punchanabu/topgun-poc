@@ -1,0 +1,14 @@
+tasks:
+  install:
+    command: 'pnpm install'
+    inputs:
+      - 'package.json'
+      - 'pnpm-lock.yaml'
+    outputs:
+      - 'node_modules'
+  dev:
+    command: 'vite dev'
+    inputs:
+      - 'src/**/*'
+    outputs:
+      - 'dist'
