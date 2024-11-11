@@ -119,3 +119,12 @@
 1731291209: New client connected from 192.168.65.1:38497 as sound-service (p2, c1, k60).
 1731291230: mosquitto version 2.0.20 terminating
 1731291230: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1731337128: mosquitto version 2.0.20 starting
+1731337128: Config loaded from /mosquitto/config/mosquitto.conf.
+1731337128: Opening ipv4 listen socket on port 1883.
+1731337128: Opening ipv6 listen socket on port 1883.
+1731337128: mosquitto version 2.0.20 running
+1731338929: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1731339291: New connection from 192.168.65.1:30282 on port 1883.
+1731339291: New client connected from 192.168.65.1:30282 as mqtt-service (p2, c1, k60).
+1731339317: Client mqtt-service closed its connection.

@@ -1,8 +1,8 @@
 import { Module } from '@nestjs/common';
-import { SoundService } from './sound.service';
+import { WebsocketModule } from 'src/socket/socket.module';
+import { MqttModule } from 'src/mqtt/mqtt.module';
 
 @Module({
-  providers: [SoundService],
-  exports: [SoundService],
+  imports: [MqttModule, WebsocketModule],
 })
 export class SoundModule {}
