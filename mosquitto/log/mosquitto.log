@@ -1,0 +1,121 @@
+1731253238: mosquitto version 2.0.20 starting
+1731253238: Config loaded from /mosquitto/config/mosquitto.conf.
+1731253238: Opening ipv4 listen socket on port 1883.
+1731253238: Opening ipv6 listen socket on port 1883.
+1731253238: mosquitto version 2.0.20 running
+1731253258: New connection from 192.168.65.1:29669 on port 1883.
+1731253258: Client <unknown> disconnected due to protocol error.
+1731253277: New connection from 192.168.65.1:29694 on port 1883.
+1731253277: New client connected from 192.168.65.1:29694 as mqttx_f2f3ccb6_1731253277000 (p5, c1, k60).
+1731254069: Client mqttx_f2f3ccb6_1731253277000 has exceeded timeout, disconnecting.
+1731254073: New connection from 192.168.65.1:30565 on port 1883.
+1731254073: New client connected from 192.168.65.1:30565 as mqttx_f2f3ccb6_1731253277000 (p5, c1, k60).
+1731255039: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1731255243: New connection from 192.168.65.1:31982 on port 1883.
+1731255243: New client connected from 192.168.65.1:31982 as sound-service (p2, c1, k60).
+1731255263: Client sound-service closed its connection.
+1731255272: New connection from 192.168.65.1:32019 on port 1883.
+1731255272: New client connected from 192.168.65.1:32019 as sound-service (p2, c1, k60).
+1731255338: Client sound-service closed its connection.
+1731255339: New connection from 192.168.65.1:32092 on port 1883.
+1731255339: New client connected from 192.168.65.1:32092 as sound-service (p2, c1, k60).
+1731255440: Client sound-service closed its connection.
+1731255441: New connection from 192.168.65.1:32225 on port 1883.
+1731255441: New client connected from 192.168.65.1:32225 as sound-service (p2, c1, k60).
+1731255442: Client sound-service closed its connection.
+1731255442: New connection from 192.168.65.1:32226 on port 1883.
+1731255442: New client connected from 192.168.65.1:32226 as sound-service (p2, c1, k60).
+1731255809: Client sound-service closed its connection.
+1731255882: Client mqttx_f2f3ccb6_1731253277000 has exceeded timeout, disconnecting.
+1731255883: New connection from 192.168.65.1:32659 on port 1883.
+1731255883: New client connected from 192.168.65.1:32659 as sound-service (p2, c1, k60).
+1731255887: New connection from 192.168.65.1:32672 on port 1883.
+1731255887: New client connected from 192.168.65.1:32672 as mqttx_f2f3ccb6_1731253277000 (p5, c1, k60).
+1731255887: Client sound-service closed its connection.
+1731255887: New connection from 192.168.65.1:32673 on port 1883.
+1731255887: New client connected from 192.168.65.1:32673 as sound-service (p2, c1, k60).
+1731255957: Client sound-service closed its connection.
+1731255958: New connection from 192.168.65.1:32758 on port 1883.
+1731255958: New client connected from 192.168.65.1:32758 as sound-service (p2, c1, k60).
+1731255958: Client sound-service closed its connection.
+1731255959: New connection from 192.168.65.1:32759 on port 1883.
+1731255959: New client connected from 192.168.65.1:32759 as sound-service (p2, c1, k60).
+1731256046: Client sound-service closed its connection.
+1731256047: New connection from 192.168.65.1:32868 on port 1883.
+1731256047: New client connected from 192.168.65.1:32868 as sound-service (p2, c1, k60).
+1731256070: Client sound-service closed its connection.
+1731256446: New connection from 192.168.65.1:33343 on port 1883.
+1731256446: New client connected from 192.168.65.1:33343 as sound-service (p2, c1, k60).
+1731256468: Client sound-service closed its connection.
+1731256670: New connection from 192.168.65.1:33620 on port 1883.
+1731256670: New client connected from 192.168.65.1:33620 as sound-service (p2, c1, k60).
+1731256840: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1731258641: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1731259403: Client mqttx_f2f3ccb6_1731253277000 has exceeded timeout, disconnecting.
+1731259403: Client sound-service has exceeded timeout, disconnecting.
+1731259405: New connection from 192.168.65.1:36483 on port 1883.
+1731259405: New client connected from 192.168.65.1:36483 as sound-service (p2, c1, k60).
+1731259408: New connection from 192.168.65.1:36484 on port 1883.
+1731259408: New client connected from 192.168.65.1:36484 as mqttx_f2f3ccb6_1731253277000 (p5, c1, k60).
+1731260442: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1731261676: Client sound-service has exceeded timeout, disconnecting.
+1731261676: Client mqttx_f2f3ccb6_1731253277000 has exceeded timeout, disconnecting.
+1731261677: New connection from 192.168.65.1:38039 on port 1883.
+1731261677: New client connected from 192.168.65.1:38039 as sound-service (p2, c1, k60).
+1731261680: New connection from 192.168.65.1:38040 on port 1883.
+1731261680: New client connected from 192.168.65.1:38040 as mqttx_f2f3ccb6_1731253277000 (p5, c1, k60).
+1731267946: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1731267946: Client sound-service has exceeded timeout, disconnecting.
+1731267946: Client mqttx_f2f3ccb6_1731253277000 has exceeded timeout, disconnecting.
+1731267947: New connection from 192.168.65.1:38101 on port 1883.
+1731267947: New client connected from 192.168.65.1:38101 as sound-service (p2, c1, k60).
+1731267950: New connection from 192.168.65.1:38102 on port 1883.
+1731267950: New client connected from 192.168.65.1:38102 as mqttx_f2f3ccb6_1731253277000 (p5, c1, k60).
+1731271610: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1731271610: Client sound-service has exceeded timeout, disconnecting.
+1731271610: Client mqttx_f2f3ccb6_1731253277000 has exceeded timeout, disconnecting.
+1731271611: New connection from 192.168.65.1:38151 on port 1883.
+1731271611: New client connected from 192.168.65.1:38151 as sound-service (p2, c1, k60).
+1731271614: New connection from 192.168.65.1:38170 on port 1883.
+1731271614: New client connected from 192.168.65.1:38170 as mqttx_f2f3ccb6_1731253277000 (p5, c1, k60).
+1731275274: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1731275274: Client sound-service has exceeded timeout, disconnecting.
+1731275274: Client mqttx_f2f3ccb6_1731253277000 has exceeded timeout, disconnecting.
+1731275275: New connection from 192.168.65.1:38219 on port 1883.
+1731275275: New client connected from 192.168.65.1:38219 as sound-service (p2, c1, k60).
+1731275279: New connection from 192.168.65.1:38232 on port 1883.
+1731275279: New client connected from 192.168.65.1:38232 as mqttx_f2f3ccb6_1731253277000 (p5, c1, k60).
+1731278937: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1731278937: Client sound-service has exceeded timeout, disconnecting.
+1731278937: Client mqttx_f2f3ccb6_1731253277000 has exceeded timeout, disconnecting.
+1731278939: New connection from 192.168.65.1:38281 on port 1883.
+1731278939: New client connected from 192.168.65.1:38281 as sound-service (p2, c1, k60).
+1731278942: New connection from 192.168.65.1:38294 on port 1883.
+1731278942: New client connected from 192.168.65.1:38294 as mqttx_f2f3ccb6_1731253277000 (p5, c1, k60).
+1731283498: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1731283498: Client sound-service has exceeded timeout, disconnecting.
+1731283498: Client mqttx_f2f3ccb6_1731253277000 has exceeded timeout, disconnecting.
+1731283499: New connection from 192.168.65.1:38343 on port 1883.
+1731283499: New client connected from 192.168.65.1:38343 as sound-service (p2, c1, k60).
+1731283502: New connection from 192.168.65.1:38344 on port 1883.
+1731283502: New client connected from 192.168.65.1:38344 as mqttx_f2f3ccb6_1731253277000 (p5, c1, k60).
+1731287267: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1731287267: Client sound-service has exceeded timeout, disconnecting.
+1731287267: Client mqttx_f2f3ccb6_1731253277000 has exceeded timeout, disconnecting.
+1731287268: New connection from 192.168.65.1:38385 on port 1883.
+1731287268: New client connected from 192.168.65.1:38385 as sound-service (p2, c1, k60).
+1731287271: New connection from 192.168.65.1:38386 on port 1883.
+1731287271: New client connected from 192.168.65.1:38386 as mqttx_f2f3ccb6_1731253277000 (p5, c1, k60).
+1731289588: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1731289588: Client sound-service has exceeded timeout, disconnecting.
+1731289588: Client mqttx_f2f3ccb6_1731253277000 has exceeded timeout, disconnecting.
+1731289589: New connection from 192.168.65.1:38447 on port 1883.
+1731289589: New client connected from 192.168.65.1:38447 as sound-service (p2, c1, k60).
+1731289592: New connection from 192.168.65.1:38460 on port 1883.
+1731289592: New client connected from 192.168.65.1:38460 as mqttx_f2f3ccb6_1731253277000 (p5, c1, k60).
+1731291208: Client sound-service has exceeded timeout, disconnecting.
+1731291208: Client mqttx_f2f3ccb6_1731253277000 has exceeded timeout, disconnecting.
+1731291209: New connection from 192.168.65.1:38497 on port 1883.
+1731291209: New client connected from 192.168.65.1:38497 as sound-service (p2, c1, k60).
+1731291230: mosquitto version 2.0.20 terminating
+1731291230: Saving in-memory database to /mosquitto/data/mosquitto.db.
