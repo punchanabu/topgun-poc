@@ -20,6 +20,24 @@ services:
       - ./mosquitto/config:/mosquitto/config
       - ./mosquitto/data:/mosquitto/data
       - ./mosquitto/log:/mosquitto/log
+    networks:
+      - app_network
+
+  mqtt-publisher:
+    build: 
+      context: ./mqtt-publisher
+      dockerfile: dockerfile
+    container_name: mqtt_publisher
+    restart: unless-stopped
+    networks:
+      - app_network
+    depends_on:
+      - broker_mqtt
+
+networks:
+  app_network:
+    driver: bridge
+
 
 volumes:
   mongodb_data:    

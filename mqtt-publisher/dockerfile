@@ -1,0 +1,19 @@
+FROM node:18-alpine
+
+WORKDIR /app
+
+COPY package.json pnpm-lock.yaml ./
+
+# Install pnpm
+RUN npm install -g pnpm
+
+# Install dependencies
+RUN pnpm install
+
+# Copy application code
+COPY . .
+
+ENV MQTT_BROKER_HOST=broker_mqtt
+ENV MQTT_BROKER_PORT=1883
+
+CMD ["npm", "start"]
