@@ -26055,3 +26055,225 @@
 1731399753: New client connected from 192.168.65.1:27368 as mqtt_publisher_db31ea476adc (p2, c1, k60, u'mqtt_user').
 1731399753: New connection from 172.28.0.4:37812 on port 1883.
 1731399753: New client connected from 172.28.0.4:37812 as mqtt_publisher_1cecdf3526f3 (p2, c1, k60, u'mqtt_user').
+1731400298: mosquitto version 2.0.20 starting
+1731400298: Config loaded from /mosquitto/config/mosquitto.conf.
+1731400298: Warning: File /mosquitto/config/password_file has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password_file`.
+1731400298: Opening websockets listen socket on port 9001.
+1731400298: Opening ipv4 listen socket on port 1883.
+1731400298: Opening ipv6 listen socket on port 1883.
+1731400298: mosquitto version 2.0.20 running
+1731400299: New connection from 172.18.0.4:41166 on port 1883.
+1731400299: Client mqtt_publisher_55a41612d45a disconnected, not authorised.
+1731400300: New connection from 172.18.0.4:41178 on port 1883.
+1731400300: Client mqtt_publisher_55a41612d45a disconnected, not authorised.
+1731400301: New connection from 172.18.0.4:41192 on port 1883.
+1731400301: Client mqtt_publisher_55a41612d45a disconnected, not authorised.
+1731400302: New connection from 172.18.0.4:41204 on port 1883.
+1731400302: Client mqtt_publisher_55a41612d45a disconnected, not authorised.
+1731400303: New connection from 172.18.0.4:41214 on port 1883.
+1731400303: Client mqtt_publisher_55a41612d45a disconnected, not authorised.
+1731400304: New connection from 172.18.0.4:41224 on port 1883.
+1731400304: Client mqtt_publisher_55a41612d45a disconnected, not authorised.
+1731400305: New connection from 172.18.0.4:41232 on port 1883.
+1731400305: Client mqtt_publisher_55a41612d45a disconnected, not authorised.
+1731400306: New connection from 172.18.0.4:41240 on port 1883.
+1731400306: Client mqtt_publisher_55a41612d45a disconnected, not authorised.
+1731400307: New connection from 172.18.0.4:41254 on port 1883.
+1731400307: Client mqtt_publisher_55a41612d45a disconnected, not authorised.
+1731400308: New connection from 172.18.0.4:34816 on port 1883.
+1731400308: Client mqtt_publisher_55a41612d45a disconnected, not authorised.
+1731400309: New connection from 172.18.0.4:34818 on port 1883.
+1731400309: Client mqtt_publisher_55a41612d45a disconnected, not authorised.
+1731400310: New connection from 172.18.0.4:34834 on port 1883.
+1731400310: Client mqtt_publisher_55a41612d45a disconnected, not authorised.
+1731400311: New connection from 172.18.0.4:34850 on port 1883.
+1731400311: Client mqtt_publisher_55a41612d45a disconnected, not authorised.
+1731400312: New connection from 172.18.0.4:34866 on port 1883.
+1731400312: Client mqtt_publisher_55a41612d45a disconnected, not authorised.
+1731400313: New connection from 172.18.0.4:34878 on port 1883.
+1731400313: Client mqtt_publisher_55a41612d45a disconnected, not authorised.
+1731400314: New connection from 172.18.0.4:34880 on port 1883.
+1731400314: Client mqtt_publisher_55a41612d45a disconnected, not authorised.
+1731400315: New connection from 172.18.0.4:34882 on port 1883.
+1731400315: Client mqtt_publisher_55a41612d45a disconnected, not authorised.
+1731400316: New connection from 172.18.0.4:34898 on port 1883.
+1731400316: Client mqtt_publisher_55a41612d45a disconnected, not authorised.
+1731400317: New connection from 172.18.0.4:34910 on port 1883.
+1731400317: Client mqtt_publisher_55a41612d45a disconnected, not authorised.
+1731400318: New connection from 172.18.0.4:55956 on port 1883.
+1731400318: Client mqtt_publisher_55a41612d45a disconnected, not authorised.
+1731400319: New connection from 172.18.0.4:55966 on port 1883.
+1731400319: Client mqtt_publisher_55a41612d45a disconnected, not authorised.
+1731400320: New connection from 172.18.0.4:55972 on port 1883.
+1731400320: Client mqtt_publisher_55a41612d45a disconnected, not authorised.
+1731400321: New connection from 172.18.0.4:55978 on port 1883.
+1731400321: Client mqtt_publisher_55a41612d45a disconnected, not authorised.
+1731400322: New connection from 172.18.0.4:55982 on port 1883.
+1731400322: Client mqtt_publisher_55a41612d45a disconnected, not authorised.
+1731400323: New connection from 172.18.0.4:55994 on port 1883.
+1731400323: Client mqtt_publisher_55a41612d45a disconnected, not authorised.
+1731400324: New connection from 172.18.0.4:56002 on port 1883.
+1731400324: Client mqtt_publisher_55a41612d45a disconnected, not authorised.
+1731400325: New connection from 172.18.0.4:56012 on port 1883.
+1731400325: Client mqtt_publisher_55a41612d45a disconnected, not authorised.
+1731400326: New connection from 172.18.0.4:56020 on port 1883.
+1731400326: Client mqtt_publisher_55a41612d45a disconnected, not authorised.
+1731400327: New connection from 172.18.0.4:56022 on port 1883.
+1731400327: Client mqtt_publisher_55a41612d45a disconnected, not authorised.
+1731400328: New connection from 172.18.0.4:57108 on port 1883.
+1731400328: Client mqtt_publisher_55a41612d45a disconnected, not authorised.
+1731400329: New connection from 172.18.0.4:57116 on port 1883.
+1731400329: Client mqtt_publisher_55a41612d45a disconnected, not authorised.
+1731400330: New connection from 172.18.0.4:57124 on port 1883.
+1731400330: Client mqtt_publisher_55a41612d45a disconnected, not authorised.
+1731400331: New connection from 172.18.0.4:57134 on port 1883.
+1731400331: Client mqtt_publisher_55a41612d45a disconnected, not authorised.
+1731400332: mosquitto version 2.0.20 terminating
+1731400332: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1731400366: mosquitto version 2.0.20 starting
+1731400366: Config loaded from /mosquitto/config/mosquitto.conf.
+1731400366: Warning: File /mosquitto/config/password_file has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password_file`.
+1731400366: Opening websockets listen socket on port 9001.
+1731400366: Opening ipv4 listen socket on port 1883.
+1731400366: Opening ipv6 listen socket on port 1883.
+1731400366: mosquitto version 2.0.20 running
+1731400367: New connection from 172.18.0.5:45944 on port 1883.
+1731400367: Client mqtt_publisher_f5a566a2de1f disconnected, not authorised.
+1731400368: New connection from 172.18.0.5:40352 on port 1883.
+1731400368: Client mqtt_publisher_f5a566a2de1f disconnected, not authorised.
+1731400369: mosquitto version 2.0.20 terminating
+1731400369: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1731400376: mosquitto version 2.0.20 starting
+1731400376: Config loaded from /mosquitto/config/mosquitto.conf.
+1731400376: Warning: File /mosquitto/config/password_file has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password_file`.
+1731400376: Opening websockets listen socket on port 9001.
+1731400376: Opening ipv4 listen socket on port 1883.
+1731400376: Opening ipv6 listen socket on port 1883.
+1731400376: mosquitto version 2.0.20 running
+1731400377: New connection from 172.18.0.5:40358 on port 1883.
+1731400377: New client connected from 172.18.0.5:40358 as mqtt_publisher_c0204dd4cb8 (p2, c1, k60, u'mqtt_user').
+1731400395: Client mqtt_publisher_c0204dd4cb8 closed its connection.
+1731400396: mosquitto version 2.0.20 terminating
+1731400396: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1731400466: mosquitto version 2.0.20 starting
+1731400466: Config loaded from /mosquitto/config/mosquitto.conf.
+1731400466: Warning: File /mosquitto/config/password_file has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password_file`.
+1731400466: Opening websockets listen socket on port 9001.
+1731400466: Opening ipv4 listen socket on port 1883.
+1731400466: Opening ipv6 listen socket on port 1883.
+1731400466: mosquitto version 2.0.20 running
+1731400466: New connection from 172.18.0.4:35430 on port 1883.
+1731400466: New client connected from 172.18.0.4:35430 as mqtt_publisher_932ee9d652a8 (p2, c1, k60, u'mqtt_user').
+1731400605: Client mqtt_publisher_932ee9d652a8 closed its connection.
+1731400606: mosquitto version 2.0.20 terminating
+1731400606: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1731400609: mosquitto version 2.0.20 starting
+1731400609: Config loaded from /mosquitto/config/mosquitto.conf.
+1731400609: Warning: File /mosquitto/config/password_file has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password_file`.
+1731400609: Opening websockets listen socket on port 9001.
+1731400609: Opening ipv4 listen socket on port 1883.
+1731400609: Opening ipv6 listen socket on port 1883.
+1731400609: mosquitto version 2.0.20 running
+1731400609: New connection from 172.18.0.5:45412 on port 1883.
+1731400609: New client connected from 172.18.0.5:45412 as mqtt_publisher_107845e77196 (p2, c1, k60, u'mqtt_user').
+1731400649: Client mqtt_publisher_107845e77196 closed its connection.
+1731400650: mosquitto version 2.0.20 terminating
+1731400650: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1731400708: mosquitto version 2.0.20 starting
+1731400708: Config loaded from /mosquitto/config/mosquitto.conf.
+1731400708: Warning: File /mosquitto/config/password_file has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password_file`.
+1731400708: Opening websockets listen socket on port 9001.
+1731400708: Opening ipv4 listen socket on port 1883.
+1731400708: Opening ipv6 listen socket on port 1883.
+1731400708: mosquitto version 2.0.20 running
+1731400708: New connection from 172.18.0.4:38604 on port 1883.
+1731400708: New client connected from 172.18.0.4:38604 as mqtt_publisher_55dfc86aa748 (p2, c1, k60, u'mqtt_user').
+1731400709: New connection from 172.18.0.5:54198 on port 1883.
+1731400709: New client connected from 172.18.0.5:54198 as mqtt-client-7bc27a (p2, c1, k60, u'mqtt_user').
+1731400750: Client mqtt_publisher_55dfc86aa748 closed its connection.
+1731400750: Client mqtt-client-7bc27a closed its connection.
+1731400751: mosquitto version 2.0.20 terminating
+1731400751: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1731400759: mosquitto version 2.0.20 starting
+1731400759: Config loaded from /mosquitto/config/mosquitto.conf.
+1731400759: Warning: File /mosquitto/config/password_file has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password_file`.
+1731400759: Opening websockets listen socket on port 9001.
+1731400759: Opening ipv4 listen socket on port 1883.
+1731400759: Opening ipv6 listen socket on port 1883.
+1731400759: mosquitto version 2.0.20 running
+1731400759: New connection from 172.18.0.5:48968 on port 1883.
+1731400759: New client connected from 172.18.0.5:48968 as mqtt_publisher_fdec69d8d486 (p2, c1, k60, u'mqtt_user').
+1731400760: New connection from 172.18.0.4:50282 on port 1883.
+1731400760: New client connected from 172.18.0.4:50282 as mqtt-client-23aa0c (p2, c1, k60, u'mqtt_user').
+1731400837: Client mqtt_publisher_fdec69d8d486 closed its connection.
+1731400837: Client mqtt-client-23aa0c closed its connection.
+1731400838: mosquitto version 2.0.20 terminating
+1731400838: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1731400843: mosquitto version 2.0.20 starting
+1731400843: Config loaded from /mosquitto/config/mosquitto.conf.
+1731400843: Warning: File /mosquitto/config/password_file has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password_file`.
+1731400843: Opening websockets listen socket on port 9001.
+1731400843: Opening ipv4 listen socket on port 1883.
+1731400843: Opening ipv6 listen socket on port 1883.
+1731400843: mosquitto version 2.0.20 running
+1731400843: New connection from 172.18.0.4:36154 on port 1883.
+1731400843: New client connected from 172.18.0.4:36154 as mqtt_publisher_9d3172588f4d (p2, c1, k60, u'mqtt_user').
+1731400844: New connection from 172.18.0.5:55056 on port 1883.
+1731400844: New client connected from 172.18.0.5:55056 as mqtt-client-a53ea4 (p2, c1, k60, u'mqtt_user').
+1731400862: Client mqtt_publisher_9d3172588f4d closed its connection.
+1731400862: Client mqtt-client-a53ea4 closed its connection.
+1731400870: mosquitto version 2.0.20 starting
+1731400870: Config loaded from /mosquitto/config/mosquitto.conf.
+1731400870: Warning: File /mosquitto/config/password_file has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password_file`.
+1731400870: Opening websockets listen socket on port 9001.
+1731400870: Opening ipv4 listen socket on port 1883.
+1731400870: Opening ipv6 listen socket on port 1883.
+1731400870: mosquitto version 2.0.20 running
+1731400871: New connection from 172.18.0.4:45284 on port 1883.
+1731400871: New client connected from 172.18.0.4:45284 as mqtt_publisher_9a65d319877d (p2, c1, k60, u'mqtt_user').
+1731400872: New connection from 172.18.0.5:38810 on port 1883.
+1731400872: New client connected from 172.18.0.5:38810 as mqtt-client-99914a (p2, c1, k60, u'mqtt_user').
+1731400924: New client connected from ::ffff:192.168.65.1:47514 as mqttjs_130eaa (p2, c1, k60, u'mqtt_user').
+1731400924: New client connected from ::ffff:192.168.65.1:47515 as mqttjs_a60581 (p2, c1, k60, u'mqtt_user').
+1731400967: New connection from 192.168.65.1:57308 on port 1883.
+1731400967: Client mqttx_2e6bfbfe disconnected, not authorised.
+1731400976: New connection from 192.168.65.1:57309 on port 1883.
+1731400976: New client connected from 192.168.65.1:57309 as mqttx_2e6bfbfe (p5, c1, k60, u'mqtt_user').
+1731400978: Client mqttx_2e6bfbfe disconnected.
+1731400991: Client mqttjs_130eaa closed its connection.
+1731400991: Client mqttjs_a60581 closed its connection.
+1731400991: New client connected from ::ffff:192.168.65.1:47518 as mqttjs_4b4aaa (p2, c1, k60, u'mqtt_user').
+1731400991: New client connected from ::ffff:192.168.65.1:47519 as mqttjs_280a0a (p2, c1, k60, u'mqtt_user').
+1731401040: mosquitto version 2.0.20 terminating
+1731401040: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1731401040: Client mqttjs_280a0a closed its connection.
+1731401040: Client mqttjs_4b4aaa closed its connection.
+1731401505: mosquitto version 2.0.20 starting
+1731401505: Config loaded from /mosquitto/config/mosquitto.conf.
+1731401505: Warning: File /mosquitto/config/password_file has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password_file`.
+1731401505: Opening websockets listen socket on port 9001.
+1731401505: Opening ipv4 listen socket on port 1883.
+1731401505: Opening ipv6 listen socket on port 1883.
+1731401505: mosquitto version 2.0.20 running
+1731401505: New connection from 172.18.0.4:41852 on port 1883.
+1731401505: New client connected from 172.18.0.4:41852 as mqtt_publisher_1c3e6d509ce7 (p2, c1, k60, u'mqtt_user').
+1731401506: New client connected from ::ffff:192.168.65.1:47662 as mqttjs_f7f87b (p2, c1, k60, u'mqtt_user').
+1731401506: New connection from 172.18.0.5:55652 on port 1883.
+1731401506: New client connected from 172.18.0.5:55652 as mqtt-client-89259f (p2, c1, k60, u'mqtt_user').
+1731401543: New connection from 192.168.65.1:57471 on port 1883.
+1731401543: New client connected from 192.168.65.1:57471 as mqttx_2e6bfbfe (p5, c1, k60, u'mqtt_user').
+1731401898: Client mqtt_publisher_1c3e6d509ce7 closed its connection.
+1731401898: Client mqtt-client-89259f closed its connection.
+1731401899: mosquitto version 2.0.20 terminating
+1731401899: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1731401899: Client mqttjs_f7f87b closed its connection.

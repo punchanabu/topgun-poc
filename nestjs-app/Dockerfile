@@ -7,13 +7,14 @@ WORKDIR /app
 COPY package*.json ./
 
 # Install dependencies
-RUN npm install
+RUN npm install -g pnpm
+RUN pnpm install
 
 # Copy the rest of the application
 COPY . .
 
 # Build the application
-RUN npm run build
+RUN pnpm run build
 
 EXPOSE 3000
 

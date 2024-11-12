@@ -8,7 +8,7 @@ import { WebsocketModule } from './socket/socket.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot(process.env.MONGO_DB_URI),
+    MongooseModule.forRoot(process.env.MONGODB_URI),
     EventEmitterModule.forRoot(),
     SoundModule,
     MqttModule,

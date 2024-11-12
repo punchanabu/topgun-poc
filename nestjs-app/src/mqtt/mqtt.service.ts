@@ -50,7 +50,7 @@ export class MqttService implements OnModuleInit {
             data: message.toString(),
             timestamp: new Date(),
           });
-
+          console.log('receive sound-data', soundData.data);
           await this.soundDataService.saveSoundData(soundData);
           this.eventEmitter.emit('sound', message.toString());
           console.log('Sound data saved successfully');
