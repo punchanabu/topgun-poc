@@ -1,0 +1,63 @@
+version: "3.8"
+services:
+  mongodb:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db  
+    networks:
+      - app_network
+  
+  broker_mqtt:
+    image: eclipse-mosquitto
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    volumes:
+      - ./mosquitto/config:/mosquitto/config
+      - ./mosquitto/data:/mosquitto/data
+      - ./mosquitto/log:/mosquitto/log
+    user: "1000:1000"  
+    restart: unless-stopped
+    networks:
+      - app_network
+    
+  mqtt-publisher:
+    build: 
+      context: ./mqtt-publisher
+      dockerfile: Dockerfile
+    container_name: mqtt_publisher
+    restart: unless-stopped
+    networks:
+      - app_network
+    depends_on:
+      - broker_mqtt
+
+  nestjs-app:
+    build:
+      context: ./nestjs-app    # Changed from ./api to ./nestjs-app
+      dockerfile: Dockerfile
+    container_name: nestjs_app
+    ports:
+      - "3000:3000"
+    environment:
+      - MONGODB_URI=mongodb://mongodb:27017/sound
+      - MQTT_BROKER=mqtt://broker_mqtt:1883
+      - MQTT_USERNAME=mqtt_user
+      - MQTT_PASSWORD=mqtt_password
+    networks:
+      - app_network
+    depends_on:
+      - mongodb
+      - broker_mqtt
+    restart: unless-stopped
+
+networks:
+  app_network:
+    driver: bridge
+
+volumes:
+  mongodb_data:    
+  mosquitto_data: 
+  mosquitto_log:
